@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
 
   (general
-    (links 90)
+    (links 0)
     (no_connects 0)
-    (area 101.524999 50.724999 190.575001 127.075001)
+    (area 100.460714 47.971 191.639286 128.62524)
     (thickness 1.6)
     (drawings 21)
     (tracks 402)
@@ -92,7 +92,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -1440,48 +1440,6 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_5mm (layer F.Cu) (tedit 5B47FE78) (tstamp 5B49ABB6)
-    (at 107.95 120.65)
-    (descr "Mounting hole, Befestigungsbohrung, 5mm, No Annular, Kein Restring,")
-    (tags "Mounting hole, Befestigungsbohrung, 5mm, No Annular, Kein Restring,")
-    (fp_text reference REF** (at 0 -6.49986) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_5mm (at 0 7.00024) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 5 0) (layer Cmts.User) (width 0.381))
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 5) (layers))
-  )
-
-  (module Mounting_Holes:MountingHole_5mm (layer F.Cu) (tedit 5B47FE82) (tstamp 5B49ABBC)
-    (at 184.15 101.6)
-    (descr "Mounting hole, Befestigungsbohrung, 5mm, No Annular, Kein Restring,")
-    (tags "Mounting hole, Befestigungsbohrung, 5mm, No Annular, Kein Restring,")
-    (fp_text reference REF** (at 0 -6.49986) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_5mm (at 0 7.00024) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 5 0) (layer Cmts.User) (width 0.381))
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 5) (layers))
-  )
-
-  (module Mounting_Holes:MountingHole_5mm (layer F.Cu) (tedit 5B47FF2C) (tstamp 5B49ABC2)
-    (at 113.03 57.15)
-    (descr "Mounting hole, Befestigungsbohrung, 5mm, No Annular, Kein Restring,")
-    (tags "Mounting hole, Befestigungsbohrung, 5mm, No Annular, Kein Restring,")
-    (fp_text reference REF** (at 0 -6.49986) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value MountingHole_5mm (at 0 7.00024) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_circle (center 0 0) (end 5 0) (layer Cmts.User) (width 0.381))
-    (pad 1 thru_hole circle (at 0 0) (size 5 5) (drill 5) (layers))
-  )
-
   (module "Lynx:Lynx medium" (layer F.Cu) (tedit 0) (tstamp 5B547B0B)
     (at 123.19 88.265)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
@@ -2038,6 +1996,48 @@
       (xy 1.857167 -1.312344) (xy 1.92371 -1.454011) (xy 2.006301 -1.571747) (xy 2.107166 -1.668425)
       (xy 2.228531 -1.746915) (xy 2.372622 -1.810091) (xy 2.454273 -1.836949) (xy 2.526359 -1.857236)
       (xy 2.579248 -1.867447) (xy 2.625684 -1.868766) (xy 2.67841 -1.862378)) (layer F.SilkS) (width 0.01))
+  )
+
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5B4EA15E) (tstamp 5B51FFA2)
+    (at 184.15 101.6)
+    (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+    (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+    (fp_text reference REF** (at 0 -4.0005) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 1.00076 5.00126) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers))
+  )
+
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5B4EA170) (tstamp 5B51FFB4)
+    (at 113.03 57.15)
+    (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+    (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+    (fp_text reference REF** (at 0 -4.0005) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 1.00076 5.00126) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers))
+  )
+
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5B4EA151) (tstamp 5B51FFC3)
+    (at 107.95 120.65)
+    (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+    (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
+    (fp_text reference REF** (at 0 -4.0005) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_3mm (at 1.00076 5.00126) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers))
   )
 
   (gr_circle (center 158.75 98.425) (end 158.75 97.79) (layer F.SilkS) (width 0.2))
