@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:keyboard_parts
-LIBS:mkl27z256vfm4
+EESchema Schematic File Version 4
 LIBS:Typewriter Keyboard Controller-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA32U4 U1
+L keyboard_parts:ATMEGA32U4 U1
 U 1 1 5B440885
 P 4550 4650
 F 0 "U1" H 4550 3400 60  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 4550 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XTAL_GND X1
+L keyboard_parts:XTAL_GND X1
 U 1 1 5B44090A
 P 2300 5350
 F 0 "X1" H 2300 5500 60  0000 C CNN
@@ -68,7 +37,7 @@ F 3 "" H 2300 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Typewriter-Keyboard-Controller-rescue:C C2
 U 1 1 5B44098D
 P 2700 5650
 F 0 "C2" H 2725 5750 50  0000 L CNN
@@ -79,7 +48,7 @@ F 3 "" H 2700 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Typewriter-Keyboard-Controller-rescue:C C1
 U 1 1 5B4409F6
 P 1900 5650
 F 0 "C1" H 1925 5750 50  0000 L CNN
@@ -90,7 +59,7 @@ F 3 "" H 1900 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5B440A21
 P 2300 5900
 F 0 "#PWR01" H 2300 5650 50  0001 C CNN
@@ -101,7 +70,7 @@ F 3 "" H 2300 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L Typewriter-Keyboard-Controller-rescue:C C4
 U 1 1 5B440B11
 P 2200 2250
 F 0 "C4" H 2225 2350 50  0000 L CNN
@@ -112,7 +81,7 @@ F 3 "" H 2200 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L Typewriter-Keyboard-Controller-rescue:C C5
 U 1 1 5B440B32
 P 2500 2250
 F 0 "C5" H 2525 2350 50  0000 L CNN
@@ -123,7 +92,7 @@ F 3 "" H 2500 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L Typewriter-Keyboard-Controller-rescue:C C6
 U 1 1 5B440BA1
 P 2800 2250
 F 0 "C6" H 2825 2350 50  0000 L CNN
@@ -134,7 +103,7 @@ F 3 "" H 2800 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L Typewriter-Keyboard-Controller-rescue:C C7
 U 1 1 5B440BCA
 P 3100 2250
 F 0 "C7" H 3125 2350 50  0000 L CNN
@@ -145,7 +114,7 @@ F 3 "" H 3100 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L Typewriter-Keyboard-Controller-rescue:C C8
 U 1 1 5B440BF7
 P 3400 2250
 F 0 "C8" H 3425 2350 50  0000 L CNN
@@ -156,7 +125,7 @@ F 3 "" H 3400 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5B440D0B
 P 2200 2600
 F 0 "#PWR02" H 2200 2350 50  0001 C CNN
@@ -167,7 +136,7 @@ F 3 "" H 2200 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR03
+L power:VCC #PWR03
 U 1 1 5B440D31
 P 2200 1900
 F 0 "#PWR03" H 2200 1750 50  0001 C CNN
@@ -178,7 +147,7 @@ F 3 "" H 2200 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_mini_micro_B J1
+L keyboard_parts:USB_mini_micro_B J1
 U 1 1 5B44233F
 P 2250 3850
 F 0 "J1" H 1850 3800 60  0000 C CNN
@@ -189,7 +158,7 @@ F 3 "" H 2200 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Typewriter-Keyboard-Controller-rescue:R R4
 U 1 1 5B442A29
 P 2850 3800
 F 0 "R4" V 2930 3800 50  0000 C CNN
@@ -200,7 +169,7 @@ F 3 "" H 2850 3800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L Typewriter-Keyboard-Controller-rescue:R R3
 U 1 1 5B442A84
 P 3150 3900
 F 0 "R3" V 3230 3900 50  0000 C CNN
@@ -211,7 +180,7 @@ F 3 "" H 3150 3900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C3
+L Typewriter-Keyboard-Controller-rescue:C C3
 U 1 1 5B442ABB
 P 2850 4100
 F 0 "C3" H 2875 4200 50  0000 L CNN
@@ -222,7 +191,7 @@ F 3 "" H 2850 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR04
+L power:VCC #PWR04
 U 1 1 5B442D44
 P 2500 3600
 F 0 "#PWR04" H 2500 3450 50  0001 C CNN
@@ -233,7 +202,7 @@ F 3 "" H 2500 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5B442D72
 P 2550 4300
 F 0 "#PWR05" H 2550 4050 50  0001 C CNN
@@ -244,7 +213,7 @@ F 3 "" H 2550 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Typewriter-Keyboard-Controller-rescue:R R2
 U 1 1 5B4430E9
 P 6150 4700
 F 0 "R2" V 6230 4700 50  0000 C CNN
@@ -255,7 +224,7 @@ F 3 "" H 6150 4700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5B443152
 P 6400 4700
 F 0 "#PWR06" H 6400 4450 50  0001 C CNN
@@ -266,7 +235,7 @@ F 3 "" H 6400 4700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5B443182
 P 6000 4500
 F 0 "#PWR07" H 6000 4250 50  0001 C CNN
@@ -277,7 +246,7 @@ F 3 "" H 6000 4500 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5B4431B2
 P 6000 3700
 F 0 "#PWR08" H 6000 3450 50  0001 C CNN
@@ -288,7 +257,7 @@ F 3 "" H 6000 3700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5B443248
 P 6000 5700
 F 0 "#PWR09" H 6000 5450 50  0001 C CNN
@@ -299,7 +268,7 @@ F 3 "" H 6000 5700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5B443278
 P 3200 5000
 F 0 "#PWR010" H 3200 4750 50  0001 C CNN
@@ -310,7 +279,7 @@ F 3 "" H 3200 5000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR011
+L power:VCC #PWR011
 U 1 1 5B4432A8
 P 5800 5600
 F 0 "#PWR011" H 5800 5450 50  0001 C CNN
@@ -321,7 +290,7 @@ F 3 "" H 5800 5600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR012
+L power:VCC #PWR012
 U 1 1 5B4432D8
 P 5800 3600
 F 0 "#PWR012" H 5800 3450 50  0001 C CNN
@@ -332,7 +301,7 @@ F 3 "" H 5800 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR013
+L power:VCC #PWR013
 U 1 1 5B443308
 P 3400 4900
 F 0 "#PWR013" H 3400 4750 50  0001 C CNN
@@ -343,7 +312,7 @@ F 3 "" H 3400 4900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR014
+L power:VCC #PWR014
 U 1 1 5B443338
 P 3250 4200
 F 0 "#PWR014" H 3250 4050 50  0001 C CNN
@@ -354,7 +323,7 @@ F 3 "" H 3250 4200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR015
+L power:VCC #PWR015
 U 1 1 5B44556F
 P 5800 4600
 F 0 "#PWR015" H 5800 4450 50  0001 C CNN
@@ -365,7 +334,7 @@ F 3 "" H 5800 4600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH SW1
+L keyboard_parts:SW_PUSH SW1
 U 1 1 5B445BD5
 P 2300 4900
 F 0 "SW1" H 2450 5010 50  0000 C CNN
@@ -376,7 +345,7 @@ F 3 "" H 2300 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Typewriter-Keyboard-Controller-rescue:R R1
 U 1 1 5B445C4F
 P 2150 4700
 F 0 "R1" V 2230 4700 50  0000 C CNN
@@ -387,7 +356,7 @@ F 3 "" H 2150 4700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR016
+L power:VCC #PWR016
 U 1 1 5B445D96
 P 1900 4700
 F 0 "#PWR016" H 1900 4550 50  0001 C CNN
@@ -398,7 +367,7 @@ F 3 "" H 1900 4700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5B44642C
 P 1900 4900
 F 0 "#PWR017" H 1900 4650 50  0001 C CNN
@@ -409,7 +378,7 @@ F 3 "" H 1900 4900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_01X08 P2
+L Typewriter-Keyboard-Controller-rescue:CONN_01X08 P2
 U 1 1 5B446B90
 P 9450 5100
 F 0 "P2" H 9450 5550 50  0000 C CNN
@@ -420,7 +389,7 @@ F 3 "" H 9450 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X08 P1
+L Typewriter-Keyboard-Controller-rescue:CONN_01X08 P1
 U 1 1 5B448849
 P 8050 5100
 F 0 "P1" H 8050 5550 50  0000 C CNN
@@ -431,7 +400,7 @@ F 3 "" H 8050 5100 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED LED7
+L Typewriter-Keyboard-Controller-rescue:LED LED7
 U 1 1 5B44AECA
 P 7800 2700
 F 0 "LED7" H 7800 2800 50  0000 C CNN
@@ -442,7 +411,7 @@ F 3 "" H 7800 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR018
+L power:VCC #PWR018
 U 1 1 5B44B888
 P 7800 2000
 F 0 "#PWR018" H 7800 1850 50  0001 C CNN
@@ -453,7 +422,7 @@ F 3 "" H 7800 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L Typewriter-Keyboard-Controller-rescue:R R11
 U 1 1 5B44B8C2
 P 7800 2250
 F 0 "R11" V 7880 2250 50  0000 C CNN
@@ -466,10 +435,10 @@ $EndComp
 Wire Wire Line
 	2700 5350 2600 5350
 Wire Wire Line
-	2700 5200 2700 5500
+	2700 5200 2700 5350
 Connection ~ 2700 5350
 Wire Wire Line
-	1900 5100 1900 5500
+	1900 5100 1900 5350
 Wire Wire Line
 	2000 5350 1900 5350
 Connection ~ 1900 5350
@@ -481,15 +450,15 @@ Wire Wire Line
 	2300 5900 2300 5550
 Connection ~ 2300 5900
 Wire Wire Line
-	1900 5900 2700 5900
+	1900 5900 2300 5900
 Wire Wire Line
 	1900 5100 3500 5100
 Wire Wire Line
 	3500 5200 2700 5200
 Wire Wire Line
-	2200 2400 2200 2600
+	2200 2400 2200 2500
 Wire Wire Line
-	2200 2500 3400 2500
+	2200 2500 2500 2500
 Wire Wire Line
 	3400 2500 3400 2400
 Wire Wire Line
@@ -503,9 +472,9 @@ Wire Wire Line
 Connection ~ 2500 2500
 Connection ~ 2200 2500
 Wire Wire Line
-	2200 1900 2200 2100
+	2200 1900 2200 2000
 Wire Wire Line
-	2200 2000 3400 2000
+	2200 2000 2500 2000
 Wire Wire Line
 	3400 2000 3400 2100
 Wire Wire Line
@@ -519,7 +488,7 @@ Wire Wire Line
 Connection ~ 2500 2000
 Connection ~ 2200 2000
 Wire Wire Line
-	2400 3700 3500 3700
+	2400 3700 2500 3700
 Wire Wire Line
 	3500 3900 3300 3900
 Wire Wire Line
@@ -529,11 +498,11 @@ Wire Wire Line
 Wire Wire Line
 	3000 3800 3500 3800
 Wire Wire Line
-	2400 4100 2700 4100
+	2400 4100 2550 4100
 Wire Wire Line
 	3500 4000 2550 4000
 Wire Wire Line
-	2550 4000 2550 4300
+	2550 4000 2550 4100
 Connection ~ 2550 4100
 Wire Wire Line
 	3000 4100 3500 4100
@@ -568,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4800 3500 4800
 Wire Wire Line
-	2800 4700 2800 4900
+	2800 4700 2800 4800
 Wire Wire Line
 	2800 4700 2300 4700
 Wire Wire Line
@@ -583,7 +552,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2100 7800 2000
 $Comp
-L LED LED6
+L Typewriter-Keyboard-Controller-rescue:LED LED6
 U 1 1 5B44DE92
 P 8100 2700
 F 0 "LED6" H 8100 2800 50  0000 C CNN
@@ -594,7 +563,7 @@ F 3 "" H 8100 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR019
+L power:VCC #PWR019
 U 1 1 5B44DE98
 P 8100 2000
 F 0 "#PWR019" H 8100 1850 50  0001 C CNN
@@ -605,7 +574,7 @@ F 3 "" H 8100 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L Typewriter-Keyboard-Controller-rescue:R R10
 U 1 1 5B44DE9E
 P 8100 2250
 F 0 "R10" V 8180 2250 50  0000 C CNN
@@ -620,7 +589,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 2100 8100 2000
 $Comp
-L LED LED5
+L Typewriter-Keyboard-Controller-rescue:LED LED5
 U 1 1 5B44DF9E
 P 8400 2700
 F 0 "LED5" H 8400 2800 50  0000 C CNN
@@ -631,7 +600,7 @@ F 3 "" H 8400 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR020
+L power:VCC #PWR020
 U 1 1 5B44DFA4
 P 8400 2000
 F 0 "#PWR020" H 8400 1850 50  0001 C CNN
@@ -642,7 +611,7 @@ F 3 "" H 8400 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Typewriter-Keyboard-Controller-rescue:R R9
 U 1 1 5B44DFAA
 P 8400 2250
 F 0 "R9" V 8480 2250 50  0000 C CNN
@@ -657,7 +626,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 2100 8400 2000
 $Comp
-L LED LED4
+L Typewriter-Keyboard-Controller-rescue:LED LED4
 U 1 1 5B44DFB2
 P 8700 2700
 F 0 "LED4" H 8700 2800 50  0000 C CNN
@@ -668,7 +637,7 @@ F 3 "" H 8700 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR021
+L power:VCC #PWR021
 U 1 1 5B44DFB8
 P 8700 2000
 F 0 "#PWR021" H 8700 1850 50  0001 C CNN
@@ -679,7 +648,7 @@ F 3 "" H 8700 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Typewriter-Keyboard-Controller-rescue:R R8
 U 1 1 5B44DFBE
 P 8700 2250
 F 0 "R8" V 8780 2250 50  0000 C CNN
@@ -694,7 +663,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2100 8700 2000
 $Comp
-L LED LED3
+L Typewriter-Keyboard-Controller-rescue:LED LED3
 U 1 1 5B44E2A2
 P 9000 2700
 F 0 "LED3" H 9000 2800 50  0000 C CNN
@@ -705,7 +674,7 @@ F 3 "" H 9000 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR022
+L power:VCC #PWR022
 U 1 1 5B44E2A8
 P 9000 2000
 F 0 "#PWR022" H 9000 1850 50  0001 C CNN
@@ -716,7 +685,7 @@ F 3 "" H 9000 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Typewriter-Keyboard-Controller-rescue:R R7
 U 1 1 5B44E2AE
 P 9000 2250
 F 0 "R7" V 9080 2250 50  0000 C CNN
@@ -731,7 +700,7 @@ Wire Wire Line
 Wire Wire Line
 	9000 2100 9000 2000
 $Comp
-L LED LED2
+L Typewriter-Keyboard-Controller-rescue:LED LED2
 U 1 1 5B44E2B6
 P 9300 2700
 F 0 "LED2" H 9300 2800 50  0000 C CNN
@@ -742,7 +711,7 @@ F 3 "" H 9300 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR023
+L power:VCC #PWR023
 U 1 1 5B44E2BC
 P 9300 2000
 F 0 "#PWR023" H 9300 1850 50  0001 C CNN
@@ -753,7 +722,7 @@ F 3 "" H 9300 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Typewriter-Keyboard-Controller-rescue:R R6
 U 1 1 5B44E2C2
 P 9300 2250
 F 0 "R6" V 9380 2250 50  0000 C CNN
@@ -768,7 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2100 9300 2000
 $Comp
-L LED LED1
+L Typewriter-Keyboard-Controller-rescue:LED LED1
 U 1 1 5B44E2CA
 P 9600 2700
 F 0 "LED1" H 9600 2800 50  0000 C CNN
@@ -779,7 +748,7 @@ F 3 "" H 9600 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR024
+L power:VCC #PWR024
 U 1 1 5B44E2D0
 P 9600 2000
 F 0 "#PWR024" H 9600 1850 50  0001 C CNN
@@ -790,7 +759,7 @@ F 3 "" H 9600 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Typewriter-Keyboard-Controller-rescue:R R5
 U 1 1 5B44E2D6
 P 9600 2250
 F 0 "R5" V 9680 2250 50  0000 C CNN
@@ -805,7 +774,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 2100 9600 2000
 $Comp
-L LED LED9
+L Typewriter-Keyboard-Controller-rescue:LED LED9
 U 1 1 5B44E2DE
 P 10100 2700
 F 0 "LED9" H 10100 2800 50  0000 C CNN
@@ -816,7 +785,7 @@ F 3 "" H 10100 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR025
+L power:VCC #PWR025
 U 1 1 5B44E2E4
 P 10100 2000
 F 0 "#PWR025" H 10100 1850 50  0001 C CNN
@@ -827,7 +796,7 @@ F 3 "" H 10100 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L Typewriter-Keyboard-Controller-rescue:R R13
 U 1 1 5B44E2EA
 P 10100 2250
 F 0 "R13" V 10180 2250 50  0000 C CNN
@@ -842,7 +811,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 2100 10100 2000
 $Comp
-L LED LED8
+L Typewriter-Keyboard-Controller-rescue:LED LED8
 U 1 1 5B44E350
 P 7500 2700
 F 0 "LED8" H 7500 2800 50  0000 C CNN
@@ -853,7 +822,7 @@ F 3 "" H 7500 2700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR026
+L power:VCC #PWR026
 U 1 1 5B44E356
 P 7500 2000
 F 0 "#PWR026" H 7500 1850 50  0001 C CNN
@@ -864,7 +833,7 @@ F 3 "" H 7500 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Typewriter-Keyboard-Controller-rescue:R R12
 U 1 1 5B44E35C
 P 7500 2250
 F 0 "R12" V 7580 2250 50  0000 C CNN
@@ -1010,16 +979,6 @@ Text Label 3500 4700 2    60   ~ 0
 Col7
 Text Label 3500 4300 2    60   ~ 0
 Col0
-Wire Wire Line
-	5650 5000 5650 5000
-Wire Wire Line
-	5650 5100 5650 5100
-Wire Wire Line
-	5650 5200 5650 5200
-Wire Wire Line
-	3500 4700 3500 4700
-Wire Wire Line
-	3500 4600 3500 4600
 Text Notes 3700 2300 0    60   ~ 0
 Decoupling Caps\nPlace across VCC and GND
 Wire Wire Line
@@ -1098,4 +1057,36 @@ NoConn ~ 5650 3800
 NoConn ~ 2400 4000
 Text Notes 7500 4050 0    60   ~ 0
 Pitch LEDs are in a row on the left of the keyboard\nShift lock is in the usual place
+Wire Wire Line
+	2700 5350 2700 5500
+Wire Wire Line
+	1900 5350 1900 5500
+Wire Wire Line
+	2300 5900 2700 5900
+Wire Wire Line
+	3100 2500 3400 2500
+Wire Wire Line
+	2800 2500 3100 2500
+Wire Wire Line
+	2500 2500 2800 2500
+Wire Wire Line
+	2200 2500 2200 2600
+Wire Wire Line
+	3100 2000 3400 2000
+Wire Wire Line
+	2800 2000 3100 2000
+Wire Wire Line
+	2500 2000 2800 2000
+Wire Wire Line
+	2200 2000 2200 2100
+Wire Wire Line
+	2550 4100 2700 4100
+Wire Wire Line
+	2550 4100 2550 4200
+Wire Wire Line
+	2550 4200 2550 4300
+Wire Wire Line
+	2500 3700 3500 3700
+Wire Wire Line
+	2800 4800 2800 4900
 $EndSCHEMATC

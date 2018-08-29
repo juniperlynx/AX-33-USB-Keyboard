@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Typewriter-Keyboard-Controller-rescue)(type Legacy)(uri "${KIPRJMOD}/Typewriter Keyboard Controller-rescue.lib")(options "")(descr ""))
+  (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/Libraries/kicad_lib_tmk-master/keyboard_parts.lib)(options "")(descr ""))
+)
